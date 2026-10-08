@@ -1,85 +1,46 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Jeux - Black Game</title>
 
     <style>
         body {
             margin: 0;
-            font-family: Arial, sans-serif;
             background: #0b0b0f;
             color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
         }
 
         header {
+            padding: 25px;
             background: #11111a;
-            padding: 20px;
-            text-align: center;
             border-bottom: 2px solid #7b2cff;
         }
 
-        header h1 {
-            margin: 0;
+        h1 {
             color: #a855f7;
         }
 
-        nav {
-            margin-top: 15px;
-        }
-
-        nav a {
+        a {
             color: white;
             text-decoration: none;
-            margin: 0 12px;
-        }
-
-        nav a:hover {
-            color: #a855f7;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: auto;
-            padding: 30px 20px;
-        }
-
-        .game-card {
-            background: #15151f;
-            border: 1px solid #29293a;
-            border-radius: 15px;
-            padding: 20px;
-            margin-bottom: 30px;
-            box-shadow: 0 0 20px rgba(123, 44, 255, 0.15);
-        }
-
-        .game-card h2 {
-            color: #a855f7;
-        }
-
-        .game-card p {
-            color: #ccc;
+            margin: 10px;
         }
 
         .game {
+            margin: 30px auto;
+            max-width: 1200px;
+        }
+
+        iframe {
             width: 100%;
             height: 700px;
             border: 2px solid #7b2cff;
-            border-radius: 10px;
-            background: black;
-        }
-
-        .credit {
-            text-align: center;
-            margin-top: 12px;
-            font-size: 14px;
-            color: #888;
-        }
-
-        .credit a {
-            color: #a855f7;
+            border-radius: 12px;
         }
     </style>
 </head>
@@ -87,41 +48,28 @@
 <body>
 
 <header>
+
     <h1>🎮 Black Game</h1>
 
-    <nav>
-        <a href="index.html">Accueil</a>
-        <a href="jeux.html">Jeux</a>
-        <a href="#">Actualités</a>
-        <a href="#">Contact</a>
-    </nav>
+    <a href="index.html">Accueil</a>
+    <a href="jeux.html">Jeux</a>
+
 </header>
 
-<div class="container">
+<div class="game">
 
-    <div class="game-card">
+    <h2>🧪 Sandboxels</h2>
 
-        <h2>🧪 Sandboxels</h2>
+    <p>Expérimente avec les différents éléments de Sandboxels !</p>
 
-        <p>
-            Expérimente avec différents éléments et observe leurs réactions
-            dans ce simulateur de type "falling sand".
-        </p>
+    <iframe
+        src="https://sandboxels.r74n.com/"
+        title="Sandboxels">
+    </iframe>
 
-        <iframe
-            class="game"
-            src="https://r74ncom.github.io/Sandboxels-Demo/"
-            title="Sandboxels"
-            allowfullscreen>
-        </iframe>
-
-        <div class="credit">
-            Jeu : <a href="https://sandboxels.r74n.com/" target="_blank">
-            Sandboxels
-            </a> — créé par R74n
-        </div>
-
-    </div>
+    <p>
+        Jeu créé par R74n
+    </p>
 
 </div>
 
