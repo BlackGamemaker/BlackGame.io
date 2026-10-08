@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Jeux - Black Game</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #0b0b0f;
+            color: white;
+        }
+
+        header {
+            background: #111118;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #292934;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+        }
+
+        nav a:hover {
+            color: #8b5cf6;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 80px 20px 50px;
+        }
+
+        .hero h1 {
+            font-size: 55px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            color: #bdbdc8;
+            font-size: 20px;
+        }
+
+        .games {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            padding: 30px 8% 80px;
+        }
+
+        .game {
+            width: 300px;
+            background: #15151d;
+            border: 1px solid #292934;
+            border-radius: 18px;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .game-icon {
+            font-size: 70px;
+            margin-bottom: 20px;
+        }
+
+        .game h2 {
+            margin-bottom: 15px;
+        }
+
+        .game p {
+            color: #bdbdc8;
+            margin-bottom: 25px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #8b5cf6;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background: #6d3fd1;
+        }
+
+        footer {
+            background: #111118;
+            color: #888;
+            text-align: center;
+            padding: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        🎮 Black Game
+    </div>
+
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="jeux.html">Jeux</a>
+        <a href="index.html#actualites">Actualités</a>
+        <a href="index.html#contact">Contact</a>
+    </nav>
+
+</header>
+
+<section class="hero">
+
+    <h1>🎮 Nos jeux</h1>
+
+    <p>
+        Découvrez les jeux créés par Black Game Studio.
+    </p>
+
+</section>
+
+<section class="games">
+
+    <div class="game">
+
+        <div class="game-icon">🕹️</div>
+
+        <h2>Premier jeu</h2>
+
+        <p>
+            Notre premier jeu arrive bientôt !
+        </p>
+
+        <a href="#" class="button">
+            JOUER
+        </a>
+
+    </div>
+
+
+    <div class="game">
+
+        <div class="game-icon">🚀</div>
+
+        <h2>Projet futur</h2>
+
+        <p>
+            Un nouveau jeu est actuellement en préparation.
+        </p>
+
+        <a href="#" class="button">
+            BIENTÔT
+        </a>
+
+    </div>
+
+
+    <div class="game">
+
+        <div class="game-icon">⚔️</div>
+
+        <h2>Projet secret</h2>
+
+        <p>
+            Une surprise est en développement...
+        </p>
+
+        <a href="#" class="button">
+            BIENTÔT
+        </a>
+
+    </div>
+
+</section>
+
+<footer>
+
+    © 2026 Black Game — Black Game Studio
+
+</footer>
+
+</body>
+</html>
